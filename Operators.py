@@ -108,4 +108,41 @@ if (num1 % 2 == 0):
 else :
     print("odd =",num1)'''
 
+#question 7
+
+'''customer = int(input("enter a number customer ="))
+card = int(input("enter a number card ="))
+if customer >= 1000 or card.lower == "yes":
+    print("eligible")
+else :
+    print("not eligible")'''
+
+#question 8
+
+'''num = int(input("enter a number num ="))
+if num % 3 == 0:
+    print("divisible")
+
+else:
+    print("not divisible")'''
+
+# question 9
+
+'''age = int (input("enter a age ="))
+if age < 19 and  age > 13 :
+    print("teenager")
+
+else:
+    print("not teenager")'''
+
+# question 10
+
+'''age = int(input("enter a age ="))
+if age >= 18 :
+    print("eligible for voting and driving")
+
+else:
+    print ("not eligible")'''
+
+
 
