@@ -144,5 +144,47 @@ if age >= 18 :
 else:
     print ("not eligible")'''
 
+# Assignment Operator
+
+# Question 1
+'''x = 10
+print("X", x)'''
+
+# Question 2
+'''x = int(input("Enter a number: "))
+x += 5
+print("X", x)'''
+
+#Question 3
+'''x = int(input("Enter a number: "))
+x -= 3
+print("X", x)'''
+
+# Question 4
+'''x = int(input("Enter a number "))
+x *= 4
+print("X", x)'''
+
+#Question 5
+'''x = float(input("Enter a number "))
+x /= 2
+print("X:", x)'''
+
+# Question 6
+'''x = int(input("Enter a number"))
+x //= 3
+print("X", x)'''
+
+# Question 7
+'''x = int(input("Enter a number"))
+x %= 7
+print("X", x)'''
+
+# Question 8
+'''x = int(input("Enter a number"))
+x **= 3
+print("X", x)'''
+
+
 
 
