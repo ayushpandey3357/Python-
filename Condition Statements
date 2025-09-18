@@ -1,0 +1,41 @@
+# Condition Statements
+
+##Example
+'''if age > 18 :
+    print("Adult")
+else:
+    print("Minor")'''
+
+##Example - Multiple conditions using elif :
+'''if age < 13 :
+    print("child")
+elif age < 20 :
+    print("adult")
+else :
+    print("child")'''
+
+# Switch alternative using dict
+'''def switch_example(day):
+    return{
+        1: "Monday",
+        2: "Tuesday",
+        3: "Wednesday",
+        4: "Thursday",
+        5: "Friday",
+        6: "Saturday",
+        7: "Sunday"
+    }.get(day, "invalid day")
+print(switch_example(2))'''
+
+# Nested Conditions
+##Example
+'''num = int(input("enter a number num ="))
+if num > 0 :
+    print("positive num")
+    if num % 2 == 0:
+        print("even num")
+    else :
+        print("odd num")
+
+else:
+    print("not positive num")'''
