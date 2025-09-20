@@ -1,0 +1,75 @@
+### Data Structured
+
+# Basic List Operations
+
+# Question 1
+'''L = [1,4,6,3,2]
+print(L[0],L[4])
+print(len(L))'''
+
+# Question 2
+'''L = [1,4,6,3,2]
+sum = sum(L)
+avg = sum / len(L)
+print(sum , avg)'''
+
+# Question 3
+
+'''fruits = ["apple","banana","guava","grapes"]
+fruits.append("kiwi")
+fruits.insert(2,"orange")
+print(fruits)'''
+
+# Question 4
+
+'''L = [1,4,6,3,2]
+L.remove(4)
+L.pop(3)
+print(L)'''
+
+# Question 5
+
+'''L = [1,4,4,6,4,3,2]
+print(L.count(4))
+L.remove(4)
+print(L)'''
+
+## Tuple
+
+# Question 1
+'''T = (2,4,5,2,10)
+print(T[0],T[4])'''
+
+# Question 2
+
+'''T = (2,4,5,2,10)
+print(len(T))'''
+
+# Question 3
+
+'''T = ("apple","banana","guava","grapes")
+for i in T:
+     print(i)'''
+
+# Question 4
+
+'''T = (2,4,5,2,10)
+for i in T:
+    if(i == 4):
+        print(i)'''
+
+# Question 5
+
+'''T = (2,4,5,2,10)
+Tup = (1,2,3,4,5)
+print(T+Tup)'''
+
+# Question 6
+
+'''T = (2,2,3,4,5,6)
+print(T.count(3))'''
+
+# Question 7
+
+'''T = (1,2,3,4,5,6,7,8,9,10)
+print(T.index(5))'''
