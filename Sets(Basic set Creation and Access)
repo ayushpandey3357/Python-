@@ -1,0 +1,176 @@
+### Sets
+
+#Basic Set Creation And Access
+
+# Question 1
+'''set = {"White","black","orange","pink","purple"};
+print(set)'''
+
+#Question 2
+'''set = 1,2,2,3,3,4,5
+print(set)'''
+
+# Question 3
+'''set = 1,2,2,3,3,4,5
+for element in set:
+    print(element)'''
+
+# Question 4
+'''set = {1,2,2,3,3,4,5}
+set.add("6")
+print(set)'''
+
+# Question 5
+'''set = {1,2,2,3,3,4,5}
+set.remove(1)
+print(set)'''
+
+# Question 6
+'''set = {1,2,2,3,3,4,5}
+set.discard(8)
+print(set)'''
+
+# Question 7
+'''set = {1,2,2,3,3,4,5}
+set.pop()
+print(set)'''
+
+# Set Operations
+
+# question 8
+'''set1 = {1,2,3,4,5}
+set2 = {5,6,7,8,9}
+print(set1.union(set2))'''
+
+# Question 9
+'''set1 = {1,2,3,4,5}
+set2 = {5,6,7,8,9}
+print(set1.intersection(set2))'''
+
+# Question 10
+'''set1 = {1,2,3,4,5}
+set2 = {5,6,7,8,9}
+print(set1.difference(set2))'''
+
+# Other Methods
+
+#Question 11
+'''set = {1,2,3,4,5}
+set1 = set.copy()
+print(set1.pop())'''
+
+# Question 12
+'''set = {1,2,3,4,5}
+print(set.clear())'''
+
+# Question 13
+'''list = [1,1,2,3,4]
+set = set(list)
+print(set)'''
+
+# Applications
+
+# Question 14
+'''String = "hello"
+set = set(String)
+print(set)'''
+
+# Question 15
+'''list = ["maussi","chinaldo","chatri",'ranveersingh']
+list1 = ['mahiya','chokli','shaada','ranveersingh']
+set1 = set(list)
+set2 = set(list1)
+print(set1&set2)'''
+
+# Question 16
+'''list = ["maussi","chinaldo","chatri",'ranveersingh']
+list1 = ['mahiya','chokli','shaada','ranveersingh']
+set1 = set(list)
+set2 = set(list1)
+print(set1 - set2)'''
+
+# Question 17
+'''word = "ronaldo"
+set1 = set(word)
+print(set1)'''
+
+# Question 18
+'''set = {1,2,3,4,5}
+set2 = {1,2,3,4,5}
+if(set==set2):
+   print("equal")'''
+
+# Question 19
+'''set = {1,2,3,4,5}
+set2 = {1,2,6,4,0}
+print(set.intersection(set2))'''
+
+# Question 20
+'''list1 = [1,2,3,4,5,5,3,4]
+set1= set(list1)
+print(len(set1))'''
+
+## Dictionary
+#Question 1
+
+'''dict1 = {"India":"Delhi","Australia":"canberra","Paxistan":"mullabad","USA":'New York'}
+print(dict1)'''
+
+# Question 2
+'''dict1 = {"India":"Delhi","Australia":"canberra","Paxistan":"mullabad","USA":'New York'}
+print(dict1["India"])'''
+
+# Question 3
+'''dict1 = {"India":"Delhi","Australia":"canberra","Paxistan":"mullabad","USA":'New York'}
+dict1["nepol"] = "kamatazz"
+print(dict1)'''
+
+# Question 4
+'''dict1 = {"India":"Delhi","Australia":"canberra","Paxistan":"mullabad","USA":'New York'}
+dict1["nepol"] = "katmando"
+print(dict1)'''
+
+# Question 5
+'''dict1 = {"India":"Delhi","Australia":"canberra","Paxistan":"mullabad","USA":'New York'}
+del dict1["USA"]
+print(dict1)'''
+
+# Question 6
+'''dict1 = {"India":"10","Australia":"5","Paxistan":"786","USA":'1'}
+print(dict1.keys())'''
+
+# Question 7
+'''dict1 = {"India":"10","Australia":"5","Paxistan":"786","USA":'1'}
+print(dict1.values())'''
+
+# Question 8
+'''dict1 = {"India":"10","Australia":"5","Paxistan":"786","USA":'1'}
+print(dict1.items())'''
+
+# Question 9
+'''dict = {"rahul": 99, "renaldo":77}
+print(dict.get("rahul"))'''
+
+# Question 10
+'''dict = {"rahul": 99, "renaldo":77}
+dict.update({"chicken":98,"rahul":12})
+print(dict)'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
