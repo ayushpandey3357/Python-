@@ -1,0 +1,55 @@
+# Question 1
+'''dict = [{"Name":"john","age":20},{"Name":"chris","age":21},{"Name":"steve","age":22}]
+print(dict)'''
+
+# Question 2
+
+'''dict = [{"Name":"john","age":20},{"Name":"chris","age":21},{"Name":"steve","age":22}]
+print(dict[1]["Name"])'''
+
+
+# Question 3
+
+'''dict = [{"Name":"john","age":20},{"Name":"chris","age":21},{"Name":"steve","age":22}]
+for Name in dict:
+    print(Name["Name"])'''
+
+# Question 4
+
+'''dict = [{"Name":"john","age":20},{"Name":"chris","age":21},{"Name":"steve","age":22}]
+dict.append({"Name":"natasha","age":16})
+print(dict)'''
+
+# Question 5
+
+# Question 6
+'''dict = [{"Name":"john","age":20},{"Name":"neha","age":21},{"Name":"steve","age":22}]
+dict.remove(dict[1])
+print(dict)'''
+
+# Question 7
+'''dict = [{"Name":"john","age":20},{"Name":"neha","age":21},{"Name":"steve","age":22}]
+Age = 0
+for i in dict:
+    if(i["age"] > Age):
+        Age = i["age"]
+print(Age)'''
+
+# Question 8
+
+'''dict = [{"Name":"john","age":18},{"Name":"neha","age":21},{"Name":"steve","age":22}]
+for i in dict:
+    if(i["age"] > 20):
+        print(i["Name"],i["age"])'''
+
+# Question 9
+'''dict = [{"Name":"john","age":18},{"Name":"neha","age":21},{"Name":"steve","age":22}]
+list = []
+for i in dict:
+    list.append(i["Name"])
+print(list)'''
+
+# Question 10
+'''dict = [{"Name":"john","age":38},{"Name":"neha","age":21},{"Name":"steve","age":22}]
+dict.sort(key=lambda x:x["age"])
+print(dict)'''
