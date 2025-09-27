@@ -1,0 +1,73 @@
+### Function
+# Question 1
+'''def greet(name):
+    print(name)
+greet("john")'''
+
+# Question 2
+'''def greet(name):
+    print("hello " + name)
+greet(input("enter a name :"))'''
+
+# Question 3
+'''def sum(num1, num2):
+    print(num1+num2)
+sum(num1=1, num2=2)'''
+
+# Question 4
+'''def sum(num):
+    print(num*num)
+sum(5)'''
+
+# Question 5
+'''def evenorodd(num):
+    if num % 2 == 0:
+        print("even")
+    else:
+        print("odd")
+evenorodd(4)'''
+
+### With Parameter & Return
+
+# Question 6
+'''def numbers(num1, num2):
+    if num1 > num2:
+        return num1
+    else:
+        return num2
+print(max(1,2))'''
+
+# Question 7
+
+'''def avg(list):
+    return (sum(list)/len(list))
+print(avg([1,2,3,4,5]))'''
+
+# Question 8
+'''def vowel(alphabet):
+    count = 0
+    for i in alphabet:
+
+        if  (i== 'a' or i== 'e' or i== 'i' or i == 'o' or i =='u'):
+            count+=1
+    print(count)
+vowel("adisjobd")'''
+
+# Question 9
+'''def factorial(n):
+    fact = 1
+    for i in range(1,n+1):
+        fact = fact * i
+    return fact
+print(factorial(5))'''
+
+# Question 10
+'''def pallindrome(n):
+    original = n
+    reverse = 0
+    while (n > 0):
+        digit = n % 10
+        reverse = reverse * 10 + digit
+        n = n//10
+    return original == reverse
+print(pallindrome(5))'''
