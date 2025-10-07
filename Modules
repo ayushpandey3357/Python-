@@ -1,0 +1,152 @@
+### Math Module
+import math
+import random
+import string
+
+#Q1'''
+'''print(math.sqrt(625))'''
+
+#Q2
+'''print(math.factorial(6))'''
+
+#Q3
+'''print(math.floor(4.7))
+print(math.ceil(4.7))'''
+
+#Q4
+'''print(math.pow(5,3))'''
+
+#Q5
+'''print(math.fabs(-18))'''
+
+#Q6
+'''print(math.sin(90))
+print(math.cos(90))
+print(math.tan(90))'''
+
+#Q7
+'''print(math.gcd(36,60))'''
+
+#Q8
+'''print(math.pow(math.e,3))'''
+
+#Q9
+'''print(math.log(10,1000))'''
+
+#Q10
+'''print(math.radians(180))'''
+
+
+###  Random
+
+#Q1
+'''print(random.randint(1,10))'''
+
+#Q2
+'''float = random.random()
+print(float)'''
+
+# Q3
+'''list = [10,20,30,40,50]
+print(random.choice(list))'''
+
+#Q4
+'''list = [10,20,30,40,50]
+(random.shuffle(list))
+print(list)'''
+
+#Q5
+'''print(random.randrange(2,20,2))'''
+
+#Q6
+'''print(random.sample(10,100))'''
+
+#Q7
+'''print("your dice = " ,random.randint(1,6))'''
+
+#Q8
+'''print(random.sample(range(1,10),5))'''
+
+#Q9
+'''fruits = ['apple','banana','mango','mango']
+random_fruits = random.sample(fruits,3)
+print(random_fruits)'''
+
+#10
+'''password = ''.join(random.choices(string.ascii_lowercase,k=8))
+print(password)'''
+
+
+import datetime
+
+
+#Current date and time
+'''now = datetime.datetime.now()
+print(now)'''
+
+# Today's date
+'''today = datetime.date.today()
+print(today)'''
+
+#Format date
+'''formatted = now.strftime("%B %d, %Y, %I:%M %p")
+print(formatted)'''
+
+#Calculate future date
+'''five_days_later = today + datetime.timedelta(days=5)
+print("Date after 5 days:" , five_days_later)'''
+
+#Q1
+'''print(datetime.datetime.today())'''
+
+#Q2
+'''print(datetime.date.today())'''
+
+#Q3
+'''today = datetime.date.today()
+print("year:", today.year)
+print("month:", today.month)
+print("day:", today.day)'''
+
+#Q4
+'''now = datetime.datetime.now()
+formatted = now.strftime("%B %d, %Y, %I:%M %p")
+print("formatted date and time:", formatted)'''
+
+#Q5
+'''Birth_year = int(input("Birth year: "))
+birth_month = int(input("Birth month: "))
+birth_day = int(input("Birth day: "))
+dob = datetime.date(birth_month, birth_day, birth_day)
+today = datetime.date.today()
+age = datetime.year - dob.year - ((today.month, today.day) < (dob.month, dob.day))
+print(age)'''
+
+#Q6
+'''today = datetime.date.today()
+end_of_year = datetime.date(today.year , 12 , 31)
+days_left = (end_of_year - today).days
+print(days_left)'''
+
+#Q7
+'''today = datetime.date.today()
+new_date = today + datetime.timedelta(days=10)
+print(new_date)'''
+
+#Q8
+'''d1 = datetime.date(2025,10,6)
+d2 = datetime.date(2025,12,25)
+diff = d1 - d2
+print(diff)'''
+
+#Q9
+'''birth_year = int(input("Birth year: "))
+birth_month = int(input("Birth month: "))
+birth_day = int(input("Birth day: "))
+
+today = datetime.date.today()
+
+if today.day == birth_day and today.month == birth_month:
+    print("Happy Birthday!")
+else:
+    print("Not your birthday today.")'''
